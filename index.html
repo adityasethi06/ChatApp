@@ -125,8 +125,7 @@ input{
                   users.html(html);
                 });
 
-               
-			   socket.on('notification', function(data){
+               	socket.on('notification', function(data){
                   alert(data.name+' left the chat');
                   //$('#notifications').html(data.name+' left the chat');
                 });
